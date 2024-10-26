@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Ghar</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="shortcut icon" href="logo_based_on_real_state_theme_using-removebg-preview.png"type="image/x-icon"/>
+    <link rel="script js" href="script.js">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <p class="hidesidebar" onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></p>
+          <li><a href="http://127.0.0.1:3000/frontend/index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg> Home</a></li>
+          <li>
+            <a href="http://127.0.0.1:3000/frontend/components/properties.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M760-400v-260L560-800 360-660v60h-80v-100l280-200 280 200v300h-80ZM560-800Zm20 160h40v-40h-40v40Zm-80 0h40v-40h-40v40Zm80 80h40v-40h-40v40Zm-80 0h40v-40h-40v40ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Z"/></svg> Properties</a>
+          </li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m480-840 320 240v480H160v-480l320-240Zm0 480q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0-80q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440Zm0 200q-41 0-80 10t-74 30h308q-35-20-74-30t-80-10ZM240-560v320q52-39 113-59.5T480-320q66 0 127 20.5T720-240v-320L480-740 240-560Zm240 80Z"/></svg> Agents</a></li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"/></svg> Login</a></li>
+        </ul>
+        <ul class="navbar">
+          <li><a href="http://127.0.0.1:3000/frontend/index.html">APNA GHAR</a></li>
+          <li><a href="http://127.0.0.1:3000/frontend/index.html">Home</a></li>
+          <li>
+            <a href="http://127.0.0.1:3000/frontend/components/properties.html">Properties</a>
+          </li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">Login</a></li>
+          <li onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- -- Home Section -- -->
+    <section class="home">
+      <h1>Find Your Home</h1>
+      <p>Search properties in your location</p>
+      <button>
+        <li><a href="#">Search Properties</a></li>
+      </button>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="featured-properties">
+      <h2>Featured Properties</h2>
+      <div class="property-grid">
+        <div class="property">
+          <img src="real_state_house (1).jpeg" alt="Property 1" />
+          <h3>Property 1</h3>
+          <p>Location: Delhi</p>
+          <p>Price: ₹50 Lakhs</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+        <div class="property">
+          <img src="real_state_house (2).jpeg" alt="Property 2" />
+          <h3>Property 2</h3>
+          <p>Location: Mumbai</p>
+          <p>Price: ₹1 Crore</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+        <div class="property">
+          <img src="real_state_house (1).jpeg" alt="Property 3" />
+          <h3>Property 3</h3>
+          <p>Location: Delhi</p>
+          <p>Price: ₹50 Lakhs</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+        <div class="property">
+          <img src="real_state_house (2).jpeg" alt="Property 4" />
+          <h3>Property 4</h3>
+          <p>Location: Mumbai</p>
+          <p>Price: ₹1 Crore</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+        <div class="property">
+          <img src="real_state_house (1).jpeg" alt="Property 5" />
+          <h3>Property 5</h3>
+          <p>Location: Delhi</p>
+          <p>Price: ₹50 Lakhs</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+        <div class="property">
+          <img src="real_state_house (2).jpeg" alt="Property 6" />
+          <h3>Property 6</h3>
+          <p>Location: Mumbai</p>
+          <p>Price: ₹1 Crore</p>
+          <button>Contact</button>
+          <button>Book</button>
+        </div>
+
+        <!-- Add more properties -->
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"Apna Ghar helped me find my dream home!"</p>
+          <img src="profile_photo1.jpeg" alt="Client 1" />
+          <h3>Client 1</h3>
+        </div>
+        <div class="testimonial">
+          <p>"Excellent service and support!"</p>
+          <img src="profile_photo.jpeg" alt="Client 2" />
+          <h3>Client 2</h3>
+        </div>
+        <!-- Add more testimonials -->
+      </div>
+    </section>
+
+  <!-- Footer  -->
+    <footer>
+      <ul>
+        <p>&copy; 2024 Apna Ghar : All Rights Reserved.</p>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

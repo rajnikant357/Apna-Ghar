@@ -1,0 +1,84 @@
+Here's a sample Terms and Conditions template for a real estate website in India:
+
+TERMS AND CONDITIONS
+
+INTRODUCTION
+
+Welcome to [Website Name], a website owned and operated by [Company Name], a [Company Type] company incorporated under the laws of India. These Terms and Conditions ("Terms") govern your access to and use of our website.
+
+DEFINITIONS
+
+"Website" means [Website Name] and all its content, services, and features.
+"User" means you, the person accessing or using the Website.
+"Real Estate Agent/Broker" means registered real estate agents/brokers listed on the Website.
+"Property" means real estate properties listed on the Website.
+
+GENERAL TERMS
+
+Acceptance: By using the Website, you agree to be bound by these Terms.
+Age Restriction: You must be at least 18 years old to use the Website.
+Jurisdiction: These Terms are governed by and construed in accordance with the laws of India.
+
+USER RESPONSIBILITIES
+
+Registration: You may need to register to access certain features.
+Password Security: Maintain confidentiality of your login credentials.
+Prohibited Activities: Don't engage in unauthorized use, spamming, or hacking.
+
+PROPERTY LISTINGS
+
+Accuracy: Property information is provided by Real Estate Agent/Brokers and is deemed accurate.
+Disclaimer: We disclaim liability for any inaccuracies or errors.
+Intellectual Property: Property images and content are owned by respective Real Estate Agent/Brokers.
+
+TRANSACTIONS
+
+Payment Gateway: We use secure payment gateways for online transactions.
+Refund Policy: Refunds are subject to our Refund and Cancellation Policy.
+Dispute Resolution: Disputes will be resolved through arbitration.
+
+PRIVACY POLICY
+
+Our Privacy Policy, available at [link], outlines how we collect, use, and protect your personal data.
+
+INTELLECTUAL PROPERTY
+
+The Website's content, design, and layout are owned by [Company Name]. Unauthorized use is prohibited.
+
+LIMITATION OF LIABILITY
+
+We shall not be liable for damages arising from:
+Use of the Website
+Property transactions
+Third-party actions
+
+INDEMNIFICATION
+
+You agree to indemnify and hold harmless [Company Name] and its affiliates.
+
+TERMINATION
+
+We reserve the right to terminate or suspend your access to the Website.
+
+DISCLAIMERS
+
+No Warranty: The Website is provided "as-is".
+No Representation: We don't guarantee property availability or prices.
+
+GOVERNING LAW
+
+These Terms shall be governed by and construed in accordance with the laws of India.
+CHANGES TO TERMS
+
+We reserve the right to modify these Terms.
+
+CONTACT US
+
+For queries or concerns, contact [Company Name] at [Email ID] or [Phone Number].
+
+Refund and Cancellation Policy [link]
+Privacy Policy [link]RERA Registration Certificate [link]
+Project Registration Certificate [link]
+GST Registration Certificate [link]
+
+/*Please note that this is a sample template and should be reviewed and customized according to your specific needs and local laws. Consult with a legal expert to ensure compliance.*/
