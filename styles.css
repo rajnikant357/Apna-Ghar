@@ -4,13 +4,22 @@
 }
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+    background-image: url(../lite_green_field_with_mountains.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #ffffff; */
 }
-nav {
-  background-color: #ddd;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+.navbar {
+  position: sticky;
+  top: 0px;
+  right: 0%;
+  /* background-color: #a9bcd1; */
+  backdrop-filter: blur(20px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
+  /* display: flex;
+  justify-content: flex-end; */
 }
 nav ul {
   width: 100%;
@@ -23,31 +32,37 @@ nav li {
   height: 50px;
 }
 nav a {
+
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #585353;
+  color: #ffffff;
+}
+nav a1 {
+cursor: default;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
 }
 nav a:hover {
-  background-color: white;
+  background: rgb(175, 178, 180);
+  backdrop-filter: blur(10px);
 }
 nav li:first-child {
   margin-right: auto;
 }
-.navbar {
-  display: flex;
-  justify-content: flex-end;
-}
 .sidebar {
   position: fixed;
-  top: 0%;
+  top: 0px;
   right: 0%;
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: #ddd();
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
   display: none;
@@ -69,33 +84,36 @@ nav li:first-child {
   background-image: url(real_state_house.jpeg);
   background-size: cover;
   height: 100vh;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: #ffffff;
+  text-shadow: 0  2px rgba(10, 10, 100, 1)  ;
 }
-
+ .findTitle{
+  display: flex; 
+  padding-top: 50px; 
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  
+ }
 .home h1 {
   font-size: 48px;
   font-weight: bold;
-}
-.home button {
-  margin-top: 10px;
-  list-style: none;
-  text-decoration: none;
 }
 .home a {
   color: #585353;
   text-decoration: none;
 }
 
-.featured-properties {
+/* .featured-properties {
   background-image: url(../lite_green_field_with_mountains.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-}
+} */
 .featured-properties h2 {
+  color: #ffffff;
   text-align: center;
   margin: auto;
 }
@@ -111,7 +129,7 @@ nav li:first-child {
   margin: 4px;
   padding: 10px;
   border: 1px solid #ddd;
-  background-color: #ddd();
+  /* background-color: #ddd(); */
   backdrop-filter: blur(10px);
   width: 100%;
 }
@@ -174,7 +192,48 @@ footer a {
 
 /* Responsive Design */
 
-@media (max-width: 500px) {
+
+/* Container for the search bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+/* Search input field */
+.search-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #e7e4e4;
+  border-radius: 20px;
+  width: 300px;
+  outline: none;
+}
+
+/* Focus state for the input */
+.search-input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Search button styling */
+.search-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the button */
+.search-btn:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 300px) {
   .home {
     height: 50vh;
   }
@@ -185,10 +244,13 @@ footer a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 730px) {
+  .hideOnMobile {
+    display: none;
+  }
 
-@media (max-width: 480px) {
   .home {
-    height: 30vh;
+    height: 50vh;
   }
   .property-grid {
     grid-template-columns: repeat(2, 1fr);
