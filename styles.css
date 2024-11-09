@@ -124,6 +124,7 @@ nav li:first-child {
 }
 
 .property {
+  color: #ffffff;
   box-sizing: border-box;
   display: inline-block;
   margin: 4px;
@@ -141,6 +142,7 @@ nav li:first-child {
 }
 
 .testimonials {
+  color: #ffffff;
   padding: 20px;
 }
 
@@ -151,6 +153,7 @@ nav li:first-child {
 }
 
 .testimonial {
+  color: black;
   background-color: #f7f7f7;
   padding: 20px;
   border: 1px solid #ddd;
@@ -168,7 +171,7 @@ nav li:first-child {
 }
 
 footer {
-  background-color: #333;
+  backdrop-filter: blur(15px);
   color: #fff;
   padding: 7px;
   text-align: center;
