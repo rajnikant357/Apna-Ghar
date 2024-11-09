@@ -4,12 +4,16 @@
 }
 body {
   font-family: Arial, sans-serif;
-    background-image: url(lite_green_field_with_mountains.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-color: #ffffff;
+
   /* margin: 0;
   padding: 0;
   background-color: #ffffff; */
+}
+.container{
+  background-image: url(123.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .navbar {
   position: sticky;
@@ -18,8 +22,8 @@ body {
   /* background-color: #a9bcd1; */
   backdrop-filter: blur(20px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
-  /* display: flex;
-  justify-content: flex-end; */
+  display: flex;
+  justify-content: space-evenly;
 }
 nav ul {
   width: 100%;
@@ -81,9 +85,9 @@ nav li:first-child {
   height: 5%;
 }
 .home {
-  background-image: url(real_state_house.jpeg);
+  /* background-image: url(real_state_house.jpeg); */
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   justify-content: space-evenly;
   align-items: center;
   color: #ffffff;
@@ -91,7 +95,7 @@ nav li:first-child {
 }
  .findTitle{
   display: flex; 
-  padding-top: 50px; 
+  padding-top: 200px; 
   justify-content: center;
   align-items: center;
   color: #ffffff;
@@ -113,9 +117,9 @@ nav li:first-child {
   padding: 10px;
 } */
 .featured-properties h2 {
-  color: #ffffff;
+  color: #160e0e;
   text-align: center;
-  margin: auto;
+  margin: 5%;
 }
 .property-grid {
   display: grid;
@@ -251,9 +255,11 @@ footer a {
   .hideOnMobile {
     display: none;
   }
-
+  .findTitle{
+    display: flex; 
+    padding-top: 100px; }
   .home {
-    height: 50vh;
+    height: 100vh;
   }
   .property-grid {
     grid-template-columns: repeat(2, 1fr);
