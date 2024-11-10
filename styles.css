@@ -10,15 +10,36 @@ body {
   padding: 0;
   background-color: #ffffff; */
 }
+.chatbot{
+  position: fixed;
+  top: 525px;
+  right: 30px;
+  display: flex;
+ z-index: 999;
+}
+.chatbot{
+  padding: 9px 12px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #9ca2af;
+
+}
+.chatbot:hover{
+  border-radius: 10px;
+  background-color: #737a8a;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
 .container {
   background-image: url(123.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-.nav {
-  padding: 0%;
-  position: sticky;
-  top: 0px;
 }
 .navbar {
   backdrop-filter: blur(20px);
@@ -27,8 +48,6 @@ body {
   justify-content: space-evenly;
 }
 nav ul {
-  position: sticky;
-  top: 0%;
   width: 100%;
   display: flex;
   list-style: none;
@@ -71,22 +90,22 @@ nav li:first-child {
 .sign-btn {
   display: flex;
   align-items: center;
-  background-color: #4caf50;
+  background-color: #9ca2af;
+  border-color: #ffffff;
   color: white;
   padding: 5px 5px;
   font-size: 15px;
-  border: none;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .sign-btn:hover {
-  background-color: #37793a;
+  border-color: #ffffff;
+  background-color: #737a8a;
   transform: scale(1.1);
   padding: 5px 5px;
   font-size: 15px;
-  border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
@@ -104,6 +123,7 @@ nav li:first-child {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  z-index: 9999;
 }
 .sidebar li {
   width: 100%;
@@ -287,8 +307,15 @@ footer a {
   background-color: #0056b3;
 }
 @media (max-width: 300px) {
+  .chat{
+    position: fixed;
+    top: 530px;
+    left: 270px;
+    display: flex;
+   z-index: 999;
+  }
   .nav {
-    position: sticky;
+    position: fixed;
     top: 0px;
   }
   .home {
@@ -302,10 +329,29 @@ footer a {
   }
 }
 @media (max-width: 730px) {
-  .nav {
-    position: sticky;
-    top: 0px;
-  }
+  .chat {
+    position: fixed;
+    top: 530px;
+    left: 270px;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.chatbot {
+padding: 9px 12px 9px;
+display: flex;
+align-items: center;
+border-color: white;
+border-radius: 20px;
+color: #ffffff;
+background-color: #9ca2af;
+justify-content: center;
+align-content: center;
+}
+
   .hideOnMobile {
     display: none;
   }
