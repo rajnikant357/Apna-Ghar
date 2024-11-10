@@ -4,28 +4,31 @@
 }
 body {
   font-family: Arial, sans-serif;
-    background-color: #ffffff;
+  background-color: #ffffff;
 
   /* margin: 0;
   padding: 0;
   background-color: #ffffff; */
 }
-.container{
+.container {
   background-image: url(123.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.navbar {
+.nav {
+  padding: 0%;
   position: sticky;
   top: 0px;
-  right: 0%;
-  /* background-color: #a9bcd1; */
+}
+.navbar {
   backdrop-filter: blur(20px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: space-evenly;
 }
 nav ul {
+  position: sticky;
+  top: 0%;
   width: 100%;
   display: flex;
   list-style: none;
@@ -36,7 +39,6 @@ nav li {
   height: 50px;
 }
 nav a {
-
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
@@ -45,7 +47,7 @@ nav a {
   color: #ffffff;
 }
 nav a1 {
-cursor: default;
+  cursor: default;
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
@@ -61,7 +63,6 @@ nav a:hover {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-
 }
 nav li:first-child {
   margin-right: auto;
@@ -70,15 +71,14 @@ nav li:first-child {
 .sign-btn {
   display: flex;
   align-items: center;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
-  padding:  5px 5px ;
+  padding: 5px 5px;
   font-size: 15px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-
 }
 
 .sign-btn:hover {
@@ -90,7 +90,6 @@ nav li:first-child {
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-
 }
 .sidebar {
   position: fixed;
@@ -112,7 +111,7 @@ nav li:first-child {
 .sidebar a {
   width: 100%;
 }
-.hidesidebar{
+.hidesidebar {
   width: 9%;
   height: 5%;
 }
@@ -123,17 +122,16 @@ nav li:first-child {
   justify-content: space-evenly;
   align-items: center;
   color: #ffffff;
-  text-shadow: 0  2px rgba(10, 10, 100, 1)  ;
+  text-shadow: 0 2px rgba(10, 10, 100, 1);
 }
- .findTitle{
+.findTitle {
   cursor: default;
-  display: flex; 
-  padding-top: 200px; 
+  display: flex;
+  padding-top: 200px;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  
- }
+}
 .home h1 {
   font-size: 48px;
   font-weight: bold;
@@ -178,23 +176,21 @@ nav li:first-child {
   object-fit: cover;
 }
 .featured-properties button {
-  background-color: #5df3a0 ;
+  background-color: #5df3a0;
   padding: 5px 5px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-
 }
-.featured-properties button:hover{
-  background-color: #46ee6ac5 ;
+.featured-properties button:hover {
+  background-color: #46ee6ac5;
   transform: scale(1.1);
   padding: 5px 5px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-
 }
 .testimonials {
   color: #221c1c;
@@ -251,14 +247,12 @@ footer a {
 
 /* Responsive Design */
 
-
 /* Container for the search bar */
 .search-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-
+}
 
 /* Search input field */
 .search-input {
@@ -272,13 +266,13 @@ footer a {
 
 /* Focus state for the input */
 .search-input:focus {
-  border-color: #007BFF;
+  border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
 /* Search button styling */
 .search-btn {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -293,6 +287,10 @@ footer a {
   background-color: #0056b3;
 }
 @media (max-width: 300px) {
+  .nav {
+    position: sticky;
+    top: 0px;
+  }
   .home {
     height: 50vh;
   }
@@ -304,14 +302,19 @@ footer a {
   }
 }
 @media (max-width: 730px) {
+  .nav {
+    position: sticky;
+    top: 0px;
+  }
   .hideOnMobile {
     display: none;
   }
-  .findTitle{
-    display: flex; 
-    padding-top: 100px; }
+  .findTitle {
+    display: flex;
+    padding-top: 100px;
+  }
   .home {
-    height: 100vh;
+    height: 85vh;
   }
   .property-grid {
     grid-template-columns: repeat(2, 1fr);
