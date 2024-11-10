@@ -331,7 +331,7 @@ footer a {
 @media (max-width: 730px) {
   .chat {
     position: fixed;
-    top: 530px;
+    top: 580px;
     left: 270px;
     display: flex;
     z-index: 999;
