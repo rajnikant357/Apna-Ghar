@@ -56,9 +56,41 @@ cursor: default;
 nav a:hover {
   background: rgb(175, 178, 180);
   backdrop-filter: blur(10px);
+  border-radius: 15px;
+  transform: scale(1.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
 }
 nav li:first-child {
   margin-right: auto;
+}
+/* signin/out button */
+.sign-btn {
+  display: flex;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  padding:  5px 5px ;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+
+.sign-btn:hover {
+  background-color: #37793a;
+  transform: scale(1.1);
+  padding: 5px 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
 }
 .sidebar {
   position: fixed;
@@ -94,6 +126,7 @@ nav li:first-child {
   text-shadow: 0  2px rgba(10, 10, 100, 1)  ;
 }
  .findTitle{
+  cursor: default;
   display: flex; 
   padding-top: 200px; 
   justify-content: center;
@@ -128,7 +161,7 @@ nav li:first-child {
 }
 
 .property {
-  color: #ffffff;
+  color: #000000;
   box-sizing: border-box;
   display: inline-block;
   margin: 4px;
@@ -144,7 +177,25 @@ nav li:first-child {
   height: 250px;
   object-fit: cover;
 }
+.featured-properties button {
+  background-color: #5df3a0 ;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 
+}
+.featured-properties button:hover{
+  background-color: #46ee6ac5 ;
+  transform: scale(1.1);
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
 .testimonials {
   color: #221c1c;
   padding: 10px;
